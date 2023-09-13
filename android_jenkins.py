@@ -20,6 +20,8 @@ caps = {
     "network": False,
     "visual": True,
     "video": True,
+    "tunnel": True,
+    "tunnelName": os.getenv("LT_TUNNEL_NAME"),
     # "smartUI.project": "Azure_Pipeline_App_Test"
   }
 
