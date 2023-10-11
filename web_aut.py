@@ -19,7 +19,7 @@ class FirstSampleTest(unittest.TestCase):
         options.platform_name = "Windows 10"
         lt_options = {};
         lt_options["build"] = build_name;
-        # lt_options["name"] = 'Py-unittest2';
+        lt_options["name"] = 'Py-unittest2';
         lt_options["selenium_version"] = "4.0.0";
         lt_options["w3c"] = True;
         lt_options["network"] = 'true';
