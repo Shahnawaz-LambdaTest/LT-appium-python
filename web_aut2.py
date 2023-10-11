@@ -23,7 +23,7 @@ class FirstSampleTest(unittest.TestCase):
         lt_options["selenium_version"] = "4.0.0";
         lt_options["w3c"] = True;
         lt_options["network"] = 'true';
-        lt_options["tunnel"] = 'true';
+        lt_options["tunnel"] = True;
         lt_options["tunnelName"] = os.getenv("LT_TUNNEL_NAME");
         options.set_capability('LT:Options', lt_options);
         
