@@ -16,7 +16,7 @@ caps = {
     "isRealMobile": True,
     "app": "lt://APP10160571901693466916292166",
     "build": build_name,
-    # "name": "Sample Test - Python",
+    "name": "Sample Test - Python",
     "network": False,
     "visual": True,
     "video": True,
