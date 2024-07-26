@@ -15,7 +15,7 @@ class FirstSampleTest(unittest.TestCase):
 
     def setUp(self):
         options = ChromeOptions()
-        options.browser_version = "114.0"
+        options.browser_version = "126"
         options.platform_name = "Windows 11"
         lt_options = {};
         lt_options["build"] = build_name;
